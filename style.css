@@ -68,48 +68,35 @@ body {
     display: block;
 }
 
-#goRight-Straight1 {
+#goRight-Right1 {
     bottom: 25%;
     left: 45%;
     display: none;
 }
 
-#goLeft-Straight1 {
+#goRight-Left1 {
     bottom: 25%;
     left: 45%;
     display: none;
 }
 
-#goRight-Straight2 {
+#goRight1-Right2 {
     bottom: 25%;
     left: 45%;
     display: none;
 }
 
-#goLeft-Straight2 {
+#goRight2-Right3 {
     bottom: 25%;
     left: 45%;
     display: none;
 }
 
-#goRight-Right2 {
+#goRight2-Left3 {
     right: 40px;
     top: 40%;
     display: none;
 }
-
-#goLeft-Straight3 {
-    bottom: 25%;
-    left: 45%;
-    display: none;
-}
-
-#goBack {
-    bottom: 25%;
-    left: 45%;
-    display: none;
-}
-
 
 .hudBase {
     background-color: rgba(0,0,0,0.7);
