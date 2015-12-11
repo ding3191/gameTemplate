@@ -1,10 +1,19 @@
 $( document ).ready(function() {
 
+	$("#exploreBody").click(function() {
+		$("#exploreBody").css("background-image", "url('img/2doors.jpg')");
+		$("#goRight1").show();
+		$("#q1").show();
+		$("#q2").hide();
+		$("#q3").hide();
+		$("#goLeft1").show();
+
+
 	$("#goRight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/2doors.jpg')");
 		$("#goRight1").hide();
-		$("#q1").show();
-		$("#q2").hide();
+		$("#q1").hide();
+		$("#q2").show();
 		$("#q3").hide();
 		$("#goRight-Right1").show();
 		$("#goRight-Left1").show();
