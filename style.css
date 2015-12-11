@@ -69,31 +69,31 @@ body {
 }
 
 #goRight-Right1 {
-    bottom: 25%;
+    right: 25%;
     left: 45%;
     display: none;
 }
 
 #goRight-Left1 {
-    bottom: 25%;
+    left: 25%;
     left: 45%;
     display: none;
 }
 
 #goRight1-Right2 {
-    bottom: 25%;
+    right: 25%;
     left: 45%;
     display: none;
 }
 
 #goRight2-Right3 {
-    bottom: 25%;
+    right: 25%;
     left: 45%;
     display: none;
 }
 
 #goRight2-Left3 {
-    right: 40px;
+    left: 40px;
     top: 40%;
     display: none;
 }
