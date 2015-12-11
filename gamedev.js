@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-	$("#exploreBody").click(function() {
+	$("#start").click(function() {
 		$("#exploreBody").css("background-image", "url('img/2doors.jpg')");
 		$("#goRight1").show();
 		$("#q1").show();
