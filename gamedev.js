@@ -6,6 +6,7 @@ $( document ).ready(function() {
 		$("#goBack"). hide();
 		$("#goRight-Straight1").hide();
 		$("#goRight-Right2").show();
+		$("#goRight-Left1").show();
 	});
 
 	$("#goRight-Straight1").click(function() {
