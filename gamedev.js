@@ -3,7 +3,7 @@ $( document ).ready(function() {
 	$("#start").click(function() {
 		$("#exploreBody").css("background-image", "url('img/2doors.jpg')");
 		$("#goRight1").show();
-		$("#q1").show();
+		$("#q1").hide();
 		$("#q2").hide();
 		$("#q3").hide();
 		$("#goLeft1").show();
@@ -19,19 +19,22 @@ $( document ).ready(function() {
 		$("#goRight-Left1").show();
 	});
 
-	$("#goRight-Straight1").click(function() {
+	$("#goLeft1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/2doors.jpg')");
-		$("#goRight-Straight1").hide();
-		$("#goRight-Straight2").show();
+		$("#goRight1").hide();
+		$("#q1").hide();
+		$("#q2").hide();
+		$("#q3").hide();
+		$("#goRight-Right1").hide);
+		$("#goRight-Left1").hide();
 	});
-
 	$("#goRight-Straight2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/2doors.jpg')");
 		$("#goRight-Straight2").hide();
 		$("#goRight-Straight3").show();
 	});
 
-	$("#goRight-Straight3").click(function() {
+	$("#goRight-St   raight3").click(function() {
 		$("#exploreBody").css("background-image", "url('img/2doors.jpg')");
 		$("#goRight-Straight3").hide();
 		$("#goRight-Right2").show();
