@@ -28,12 +28,17 @@ $( document ).ready(function() {
 		$("#goRight-Right1").hide);
 		$("#goRight-Left1").hide();
 	});
-	$("#goRight-Straight2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/2doors.jpg')");
-		$("#goRight-Straight2").hide();
-		$("#goRight-Straight3").show();
+	
+	$("#goLeft1").click(function() {
+		$("#exploreBody").css("background-image", "url('img/rko.png')");
+		$("#goRight1").hide();
+		$("#q1").hide();
+		$("#q2").hide();
+		$("#q3").hide();
+		$("#goRight-Right1").hide);
+		$("#goRight-Left1").hide();
 	});
-
+	
 	$("#goRight-Straight3").click(function() {
 		$("#exploreBody").css("background-image", "url('img/2doors.jpg')");
 		$("#goRight-Straight3").hide();
