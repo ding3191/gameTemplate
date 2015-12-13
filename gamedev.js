@@ -20,7 +20,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goLeft1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/2doors.jpg')");
+		$("#exploreBody").css("background-image", "url('img/rko.png')");
 		$("#goRight1").hide();
 		$("#q1").hide();
 		$("#q2").hide();
@@ -34,7 +34,7 @@ $( document ).ready(function() {
 		$("#goRight-Straight3").show();
 	});
 
-	$("#goRight-St   raight3").click(function() {
+	$("#goRight-Straight3").click(function() {
 		$("#exploreBody").css("background-image", "url('img/2doors.jpg')");
 		$("#goRight-Straight3").hide();
 		$("#goRight-Right2").show();
